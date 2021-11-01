@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Events - Mmm Pizza</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Mmm Pizza in Syracuse makes delicious homemade italian pizza.">
+    <meta name="keywords" content="Pizza, Homemade, Italian, Syracuse, Delicious.">
+    <meta name="author" content="MMM PIZZA LLC">
+    <meta name="twitter:image:src" content="https://mmmpizza.com/img/ogimage.png">
+    <meta property="og:title" content="Syracuse Homemade Italian Pizza" />
+    <meta property="og:description" content="A Syracuse based pizza parlor making delicious homemade italian pizza." />
+    <meta property="og:image" content="https://mmmpizza.com/img/ogimage.png"/>
+    <meta property="og:url" content="https://mmmpizza.com" />
+    <meta property="og:type" content="website"/>
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+  </head>
+  <body class="bg-black text-white">
+    
+    <!-- bgDiv -->
+    <div id="bgDiv">
+    <!-- header -->
+    <header>
+      <a href="index.html"><img class="logo me-auto" style="width: 50px;" src="svg/logo.svg" alt="logo"></a>
+        <input class="menuBtn" type="checkbox" id="menuBtn" />
+        <label class="menuIcon md-hide" for="menuBtn"><span class="navIcon"></span></label>
+        <ul class="menu">
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#location">Directions</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+    </header><!-- /header -->
+
+    <!-- landing -->
+    <section id="landing" class="d-flex flex-column j-c-c a-i-c w-100">
+      <h1 class="py-5 px-1">Events</h1>
+    </section><!-- /landing -->    
+    </div><!-- /bgDiv -->
+
+    <!-- events -->
+    <section id="events" class="d-flex flex-column j-c-c a-i-c pt-5 mt-5">
+      <p class="py-2">Current or upcoming events will appear here.</p>
+    </section><!-- /events -->
+
+    <!-- contact -->
+    <section id="contact" class="d-flex flex-column j-c-c a-i-c mb-5 mt-5">
+      <h2 class="text-white mb-2">Contact</h2>
+      <form id="contactForm" class="w-90" action="contactform.php" method="POST">
+        <div class="d-flex px-1 py-05">
+          <input class="me-1 w-50" type="text" name="name" class="form-control" placeholder="Your name" aria-label="Full name" required>
+          <input type="email" class="form-control w-50" name="email" placeholder="Your email" required>
+        </div>
+        <div class="d-flex px-1 py-05">
+          <input class="w-100 mt-1" type="subject" class="form-control" name="subject" placeholder="Subject of message" required>
+        </div>
+        <div class="d-flex px-1 py-05">
+          <textarea class="form-control mt-1 w-100" name="message" rows="3" placeholder="Your message" required></textarea>
+        </div>
+      </form>
+    </section><!-- /contact -->
+
+    <!-- footer -->
+    <footer class="d-flex j-c-c a-i-c mt-5 px-2 py-1">
+      <div id="location" class="d-flex flex-column j-c-c a-i-s me-auto">
+        <p>Address:</p>
+        <div class="py-05">
+          <small>123 Gotham Street Rd</small><br>
+          <small>Gotham, NY 00000</small>
+        </div>
+        <p>Phone:</p>
+        <small class="py-05">(000) 000-0000</small>
+        <p>Email:</p>
+        <small class="py-05">info@email.com</small>
+      </div>
+      <small>&copy; 2021 Mmm Pizza LLC</small>
+    </footer><!-- /footer -->
+
+  </body>
+</html>

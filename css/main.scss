@@ -1,0 +1,30 @@
+@import "config";
+@import "fonts";
+
+// General Styles
+img {
+  width: 100%;
+}
+a {
+  color: white;
+}
+#bgDiv {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: none;
+}
+#contactForm {
+  max-width: 500px;
+}
+// Classes
+.grow:hover {
+  transform: scale(1.03);
+}
+.vh100 {
+  height: 100vh;
+}
+
+@import "nav";
+@import "landing";
+@import "oatcake";
+@import "components";
